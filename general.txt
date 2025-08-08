@@ -1,0 +1,23 @@
+1. So first we have to create data in js then collect all then render it to js.
+
+2. What i have done till now as follows:
+* We cloned the startup code for amazon project.
+
+* We created a new directory in main directory as scripts for storing all javascripts files.
+
+* We linked js file to its respective html i.e. amazone.js to amazon.html using script tag just above closing tag of body.
+
+* We created a data structure using objects inside array where each object is for a product with their details.
+
+* All object MUST follow the same datastructure.
+
+* We ran a loop on the datastructure using forEach loop. Created html tamplets for each product by using placeholders inside the templet.
+
+* Stored all values in a single string.
+
+* Targeted the parent component of all products form html page using document.querySelector().
+
+* Chaged the inner html of parent component to stored value using document.querySelector().innerHTML.
+
+# For Formatting numbers we user .toFixed(n) method where n is the number of digits after decimel.
+
